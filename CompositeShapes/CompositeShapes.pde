@@ -76,7 +76,19 @@ triangle(xNose1, yNose1, xNose2, yNose2, xNose3, yNose3);
 //rect();
 strokeWeight(mouthOpen);
 line(mouthX1, mouthY1, mouthX2, mouthY2);
-strokeWeight(reset);
+strokeWeight(reset); // reset to one pixel
 //
 //Measle
+float measleDiameter = smallerDisplayDimension*1/25;//Range of measle size: small=*1/100, large=4xbigger (*1/25)
+float measleRadius = measleDiameter*1/2;
+//println( (appWidth*0)+measleDiameter*1/2, appWidth);
+float measleX = random(rectFaceX+measleRadius, (( rectFaceX+rectFaceWidth) - measleRadius));
+float measleY = random(rectFaceY+measleRadius, (( rectFaceY+rectFaceHeight) - measleRadius));
+color red=#FF0000, measleColour=red, whiteReset = #000000;
 //rect();
+//random values given other variables (similar to button code)
+noStroke(); // gets rid of shape outline
+fill(measleColour);
+ellipse (measleX,measleY,measleDiameter, measleDiameter);
+stroke(reset); //Reset to one pixel
+fill(whiteReset); //Reset to first colour (i.e blackReset)
