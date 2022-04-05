@@ -61,19 +61,19 @@ rect(rectFaceX, rectFaceY, rectFaceWidth, rectFaceHeight);
 ellipse(faceX, faceY, faceDiameter, faceDiameter);
 //
 //Left eye
-//rect();
+rect(leftEyeX - eyeDiameter*1/2, leftEyeY- eyeDiameter*1/2, eyeDiameter, eyeDiameter);
 ellipse(leftEyeX, leftEyeY, eyeDiameter, eyeDiameter);
 //
 //Right eye
-//rect();
+rect(rightEyeX - eyeDiameter*1/2, rightEyeY - eyeDiameter*1/2, eyeDiameter, eyeDiameter);
 ellipse(rightEyeX, rightEyeY, eyeDiameter, eyeDiameter);
 //
 //Nose
-//rect();
+rect(xNose2, yNose1, appWidth*1/8 , appHeight*1/4);
 triangle(xNose1, yNose1, xNose2, yNose2, xNose3, yNose3);
 //
 //Mouth
-//rect();
+rect(mouthX1 - mouthOpen*1/2, mouthY1 - mouthOpen*1/2, appWidth*1/4 + mouthOpen, appHeight* 1/5);
 strokeWeight(mouthOpen);
 line(mouthX1, mouthY1, mouthX2, mouthY2);
 strokeWeight(reset); // reset to one pixel
@@ -84,7 +84,13 @@ float measleRadius = measleDiameter*1/2;
 //println( (appWidth*0)+measleDiameter*1/2, appWidth);
 float measleX = random(rectFaceX+measleRadius, (( rectFaceX+rectFaceWidth) - measleRadius));
 float measleY = random(rectFaceY+measleRadius, (( rectFaceY+rectFaceHeight) - measleRadius));
-color red=#FF0000, measleColour=red, whiteReset = #000000;
+Boolean nightMode=false;//Note: IF-ELSE similar to tretinary operator 
+//color red=#FF0000, measleColour=red, whiteReset = #000000;
+color measleColour = (nightMode==false) ? color (random(150, 255), random(50), random(120)) : color(255, random(50), 0);
+color whiteReset = #000000;
+//
+//
+//
 //rect();
 //random values given other variables (similar to button code)
 noStroke(); // gets rid of shape outline
