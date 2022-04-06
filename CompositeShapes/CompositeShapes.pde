@@ -91,7 +91,7 @@ color whiteReset = #000000;
 //
 //
 //
-//rect();
+rect(measleX - measleRadius, measleY - measleRadius, measleDiameter, measleDiameter);
 //random values given other variables (similar to button code)
 noStroke(); // gets rid of shape outline
 fill(measleColour);
