@@ -87,7 +87,7 @@ float measleY = random(rectFaceY+measleRadius, (( rectFaceY+rectFaceHeight) - me
 Boolean nightMode=false;//Note: IF-ELSE similar to tretinary operator 
 //color red=#FF0000, measleColour=red, whiteReset = #000000;
 color measleColour = (nightMode==false) ? color (random(150, 255), random(50), random(120)) : color(255, random(50), 0);
-color whiteReset = #000000;
+color whiteReset = #FFFFFF;
 //
 //
 //
