@@ -1,23 +1,4 @@
 //Global Variables
-//
-void setup() {}//End Setup
-//
-void draw() {}//End Draw
-//
-void keyPressed() {}//End keyPressed
-//
-void mousePressed() {}//End mousePressed
-//
-//End Main Program
-
-
-
-
-
-
-
-
-//Global Variables
 int smallerDisplayDimension, reset, mouthOpen;
 float rectFaceX, rectFaceY, rectFaceWidth, rectFaceHeight;
 float faceX, faceY, faceDiameter;
@@ -25,6 +6,7 @@ float leftEyeX, leftEyeY, rightEyeX, rightEyeY, eyeDiameter;
 float mouthX1, mouthY1, mouthX2, mouthY2;
 float xNose1, yNose1, xNose2, yNose2, xNose3, yNose3;
 //
+void setup() {
 //Display Geometry
 fullScreen(); //Uses displayWidth and displayHeight
 //Landscape, not portrait or square
@@ -97,6 +79,9 @@ strokeWeight(mouthOpen);
 line(mouthX1, mouthY1, mouthX2, mouthY2);
 strokeWeight(reset); // reset to one pixel
 //
+}//End Setup
+//
+void draw() {
 //Measle
 float measleDiameter = random(smallerDisplayDimension*1/100, smallerDisplayDimension*1/25);//Range of measle size: small=*1/100, large=4xbigger (*1/25)
 float measleRadius = measleDiameter*1/2;
@@ -117,3 +102,14 @@ fill(measleColour);
 ellipse (measleX,measleY,measleDiameter, measleDiameter);
 stroke(reset); //Reset to one pixel
 fill(whiteReset); //Reset to first colour (i.e blackReset)
+}//End Draw
+//
+void keyPressed() {
+
+}//End keyPressed
+//
+void mousePressed() {
+
+}//End mousePressed
+//
+//End Main Program
