@@ -2,7 +2,7 @@
 int smallerDisplayDimension, reset;
 color whiteReset;
 Boolean nightMode;
-int appWidth = displayWidth, appHeight = displayHeight;
+int appWidth, appHeight;
 //
 //
 void setup() 

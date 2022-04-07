@@ -3,6 +3,8 @@
 
 void population() 
 {
+appWidth = displayWidth;
+appHeight = displayHeight;
 //Variable Population: Notic using appWidth & appHeight to move between size() & fullScreen()
 smallerDisplayDimension = appHeight; //ALWAYS in landscape
 //largerDisplayDimension = width;
