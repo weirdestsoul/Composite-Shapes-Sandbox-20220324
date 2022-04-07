@@ -1,3 +1,6 @@
+//Global Variables
+
+
 void population() 
 {
 //Variable Population: Notic using appWidth & appHeight to move between size() & fullScreen()
