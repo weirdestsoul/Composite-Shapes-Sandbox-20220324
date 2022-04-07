@@ -29,8 +29,13 @@ mouthOpen = smallerDisplayDimension*1/5;
 xNose1 = appWidth*1/2;
 yNose1 = appHeight*3/8;
 xNose2 = appWidth*7/16;
-yNose2 =appHeight*5/8;
+yNose2 =appHeight*9/16;
 xNose3 = appWidth*9/16;
 yNose3 = yNose2; 
+leftNostrilX = xNose2+appWidth*1/48;
+leftNostrilY = yNose2-appHeight*1/48;
+rightNostrilX = xNose3-appWidth*1/48;
+rightNostrilY = leftNostrilY;
+nostrilDiameter = smallerDisplayDimension*1/12;
 //
 }
