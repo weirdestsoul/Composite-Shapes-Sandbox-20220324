@@ -37,5 +37,18 @@ leftNostrilY = yNose2-appHeight*1/48;
 rightNostrilX = xNose3-appWidth*1/48;
 rightNostrilY = leftNostrilY;
 nostrilDiameter = smallerDisplayDimension*1/12;
+measleBoxX1 = appWidth*68/288;
+measleBoxX2 = appWidth*117/288; 
+measleBoxX3 = measleBoxX2 - appHeight*4/24;
+measleBoxX4 = measleBoxX3;
+//measleBoxX5 =
+//measleBoxX6 = 
+measleBoxY1 = appHeight*1/3;
+measleBoxY2 = appHeight*8/288;
+measleBoxY3 = measleBoxY1  - appHeight*5/24;
+measleBoxY4 = measleBoxY3 + appHeight*13/24;
+//measleBoxY5 = 
+//measleBoxY6 = 
+
 //
 }

@@ -1,6 +1,8 @@
 //Global Variables
 color measleColour;
 float measleY, measleX, measleDiameter, measleRadius;
+float measleBoxX1, measleBoxX2, measleBoxX3, measleBoxX4, measleBoxX5, measleBoxX6, measleBoxY1, measleBoxY2, measleBoxY3, measleBoxY4, measleBoxY5, measleBoxY6;
+
 void measleDraw()
 {
 //Measle
@@ -23,4 +25,8 @@ fill(measleColour);
 ellipse (measleX,measleY,measleDiameter, measleDiameter);
 stroke(reset); //Reset to one pixel
 fill(whiteReset); //Reset to first colour (i.e blackReset)  
+rect(measleBoxX1, measleBoxY1,appWidth*152/288, appHeight*1/3);
+rect(measleBoxX2, measleBoxY2, appHeight*1/3, appHeight-(appHeight*18/288));
+rect(measleBoxX3, measleBoxY3, appHeight*1/6, appHeight*5/24); 
+rect(measleBoxX4, measleBoxY4, appHeight*1/6, appHeight*5/24); 
 } //End measleDraw
