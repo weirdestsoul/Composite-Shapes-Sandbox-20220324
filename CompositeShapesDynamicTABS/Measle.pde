@@ -29,4 +29,6 @@ rect(measleBoxX1, measleBoxY1,appWidth*152/288, appHeight*1/3);
 rect(measleBoxX2, measleBoxY2, appHeight*1/3, appHeight-(appHeight*18/288));
 rect(measleBoxX3, measleBoxY3, appHeight*1/6, appHeight*5/24); 
 rect(measleBoxX4, measleBoxY4, appHeight*1/6, appHeight*5/24); 
+rect(measleBoxX5, measleBoxY5, appHeight*1/6, appHeight*5/24); 
+rect(measleBoxX6, measleBoxY6, appHeight*1/6, appHeight*5/24); 
 } //End measleDraw
