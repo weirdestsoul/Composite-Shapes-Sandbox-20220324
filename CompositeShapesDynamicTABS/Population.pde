@@ -48,7 +48,7 @@ measleBoxY2 = appHeight*8/288;
 measleBoxY3 = measleBoxY1  - appHeight*5/24;
 measleBoxY4 = measleBoxY3 + appHeight*13/24;
 measleBoxY5 = measleBoxY3;
-measleBoxY6 =measleBoxY4; 
+measleBoxY6 = measleBoxY4; 
 
 //
 }
