@@ -27,7 +27,7 @@ measleColour = (nightMode==false) ? color (random(150, 255), random(50), random(
 whiteReset = #FFFFFF;
 //
 //
-//
+frameRate(75);
 //random values given other variables (similar to button code)
 //rect(measleX - measleRadius, measleY - measleRadius, measleDiameter, measleDiameter);
 //Measle Box 1
@@ -44,7 +44,6 @@ ellipse (measleX2,measleY2,measleDiameter, measleDiameter);
 stroke(reset); //Reset to one pixel
 fill(whiteReset); //Reset to first colour (i.e blackReset)  
 //
-frameRate(1000);
 //Measle Box 3
 noStroke(); // gets rid of shape outline
 fill(measleColour);
