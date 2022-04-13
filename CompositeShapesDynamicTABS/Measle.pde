@@ -26,8 +26,6 @@ nightMode=false;//Note: IF-ELSE similar to tretinary operator
 measleColour = (nightMode==false) ? color (random(150, 255), random(50), random(120)) : color(255, random(50), 0);
 whiteReset = #FFFFFF;
 //
-//
-frameRate(75);
 //random values given other variables (similar to button code)
 //rect(measleX - measleRadius, measleY - measleRadius, measleDiameter, measleDiameter);
 //Measle Box 1
