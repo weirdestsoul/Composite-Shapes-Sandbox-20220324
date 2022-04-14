@@ -8,6 +8,7 @@ int appWidth, appHeight;
 void setup() 
 {
 fullScreen(); //Uses displayWidth and displayHeight
+background();
 displaySetup();
 population();
 faceSetup();
@@ -17,7 +18,7 @@ void draw()
 {
 measleDraw();
 leftEyeDraw();
-rightEyeDraw();
+//rightEyeDraw();
 noseDraw();
 mouthDraw();
 quitButton();
