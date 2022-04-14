@@ -18,8 +18,8 @@ fill(whiteReset);
 
 void restartButtonPressed() {
 if (mouseX>restartButtonX && mouseX<restartButtonX+quitButtonWidth && mouseY>restartButtonY && mouseY<restartButtonY+restartButtonHeight) 
-ellipse(faceX, faceY, faceDiameter, faceDiameter);  
-  
+{fill(skin);
+ellipse(faceX, faceY, faceDiameter, faceDiameter); } 
 }//End restartButtonPressed
 
 void restartText() {
