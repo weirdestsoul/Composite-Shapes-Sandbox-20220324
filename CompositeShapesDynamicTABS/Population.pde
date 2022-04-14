@@ -42,12 +42,20 @@ measleBoxX3 = measleBoxX2 - appHeight*4/24;
 measleBoxX4 = measleBoxX3;
 measleBoxX5 = measleBoxX3 + appHeight*3/8;
 measleBoxX6 = measleBoxX4 + appHeight*3/8;
+measleBoxX7 = measleBoxX1 + appWidth*11/288;
+measleBoxX8 =measleBoxX5 + appWidth*5/288; 
+//measleBoxX9
+//measleBoxX10
 measleBoxY1 = appHeight*1/3;
 measleBoxY2 = appHeight*8/288;
 measleBoxY3 = measleBoxY1  - appHeight*5/24;
 measleBoxY4 = measleBoxY3 + appHeight*13/24;
 measleBoxY5 = measleBoxY3;
 measleBoxY6 = measleBoxY4; 
+measleBoxY7 = measleBoxY1 - appHeight*5/40;
+measleBoxY8 = measleBoxY7;
+//measleBoxY9
+//measleBoxY10
 boxWidth1 = appWidth*152/288;
 boxHeight1 = appHeight*1/3;
 boxWidth2 = appWidth*3/16;
@@ -60,6 +68,14 @@ boxWidth5 = appWidth*1/6;
 boxHeight5 = appHeight*5/24;
 boxWidth6 = appWidth*1/6;
 boxHeight6 = appHeight*5/24;
+boxWidth7 = appHeight*1/3;
+boxHeight7 = appHeight*59/100;
+boxWidth8 = appHeight*1/3;
+boxHeight8 = appHeight*59/100;
+//boxWidth9 = 
+//boxHeight9 
+//boxWidth10 =
+//boxHeight10 
 
 
 //
