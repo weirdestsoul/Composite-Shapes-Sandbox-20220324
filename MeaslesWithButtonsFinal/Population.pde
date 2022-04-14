@@ -1,8 +1,10 @@
 //Global Variables
-color blue=#373AC9, red=#E33030;
+color blue=#373AC9, red=#E33030, text=#000000;
+PFont textFont;
 //
 void population() 
 {
+textFont = createFont("Comic Sans MS Bold",55);
 appWidth = displayWidth;
 appHeight = displayHeight;
 //Variable Population: Notic using appWidth & appHeight to move between size() & fullScreen()
@@ -28,7 +30,7 @@ mouthHeight = mouthWidth;
 xNose1 = appWidth*1/2;
 yNose1 = appHeight*3/8;
 xNose2 = appWidth*7/16;
-yNose2 =appHeight*9/16;
+yNose2 = appHeight*9/16;
 xNose3 = appWidth*9/16;
 yNose3 = yNose2; 
 leftNostrilX = xNose2+appWidth*1/48;

@@ -22,6 +22,8 @@ noseDraw();
 mouthDraw();
 quitButton();
 restartButton();
+restartText();
+quitText();
 }//End Draw
 //
 void keyPressed() 
