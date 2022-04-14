@@ -11,4 +11,9 @@ if (mouseX>quitButtonX && mouseX<quitButtonX+quitButtonWidth && mouseY>quitButto
 //
 fill(quitButtonColour);
 rect(quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight);
-}//End exitButton
+}//End quitButton
+
+void quitButtonPressed() {
+if (mouseX>quitButtonX && mouseX<quitButtonX+quitButtonWidth && mouseY>quitButtonY && mouseY<quitButtonY+quitButtonHeight) exit();
+  
+}//End quitButtonPressed

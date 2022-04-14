@@ -31,7 +31,8 @@ void keyPressed()
 //
 void mousePressed() 
 {
-
+quitButtonPressed();
+restartButtonPressed();
 }//End mousePressed
 //
 //End Main Program

@@ -11,4 +11,11 @@ if (mouseX>restartButtonX && mouseX<restartButtonX+quitButtonWidth && mouseY>res
 //
 fill(restartButtonColour);
 rect(restartButtonX, restartButtonY, restartButtonWidth, restartButtonHeight);
-}
+}//End restartButton
+
+void restartButtonPressed() {
+if (mouseX>restartButtonX && mouseX<restartButtonX+quitButtonWidth && mouseY>restartButtonY && mouseY<restartButtonY+restartButtonHeight) 
+fill(whiteReset);
+ellipse(faceX, faceY, faceDiameter, faceDiameter);  
+  
+}//End restartButtonPressed
