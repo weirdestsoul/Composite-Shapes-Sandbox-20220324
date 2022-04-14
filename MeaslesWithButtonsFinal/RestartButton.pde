@@ -1,9 +1,14 @@
 //Global Variables
+float restartButtonX, restartButtonY, restartButtonWidth, restartButtonHeight;
+color restartButtonColour;
 //
 void restartButton() {
-
-}//End restartButton
-
-
-
-//For the restart button, all it does is draw a new "face" (circle) above the pre-existing face to create a new canvas
+if (mouseX>restartButtonX && mouseX<restartButtonX+quitButtonWidth && mouseY>restartButtonY && mouseY<restartButtonY+restartButtonHeight){
+  restartButtonColour = red;
+} else {
+  restartButtonColour = blue;
+}
+//
+fill(restartButtonColour);
+rect(restartButtonX, restartButtonY, restartButtonWidth, restartButtonHeight);
+}

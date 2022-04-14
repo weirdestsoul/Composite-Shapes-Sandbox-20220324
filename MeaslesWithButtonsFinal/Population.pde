@@ -1,6 +1,6 @@
 //Global Variables
-
-
+color blue=#373AC9, red=#E33030;
+//
 void population() 
 {
 appWidth = displayWidth;
@@ -76,7 +76,13 @@ boxWidth9 = appHeight*21/40;
 boxHeight9 = appHeight*1/4;
 boxWidth10 = boxWidth9;
 boxHeight10 = boxHeight9;
-
-
+quitButtonX = appWidth*1/20;
+quitButtonY = appHeight*6/10;
+quitButtonWidth = appWidth*1/10;
+quitButtonHeight = appHeight*3/40;
+restartButtonX = appWidth*1/20;
+restartButtonY = appHeight*5/10;
+restartButtonWidth = appWidth*1/10;
+restartButtonHeight = appHeight*3/40;
 //
 }

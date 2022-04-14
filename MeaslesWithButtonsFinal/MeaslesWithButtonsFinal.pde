@@ -20,6 +20,8 @@ leftEyeDraw();
 rightEyeDraw();
 noseDraw();
 mouthDraw();
+quitButton();
+restartButton();
 }//End Draw
 //
 void keyPressed() 
