@@ -1,5 +1,5 @@
 //Global Variable
-float leftEyeX, leftEyeY, eyeDiameter;
+float EyeX, EyeY, EyeWidth, EyeHeight;
 PImage pic3;
 void leftEyeDraw() 
 {
@@ -8,5 +8,5 @@ void leftEyeDraw()
 //ellipse(leftEyeX, leftEyeY, eyeDiameter, eyeDiameter);
 //
 pic3=loadImage("Eyes.png");
-image(pic3, appWidth*11/48, 0-appHeight*1/20, appWidth*5/9, appHeight*5/9);
+image(pic3, EyeX, EyeY, EyeWidth, EyeHeight);
 } //End leftEyeDraw
